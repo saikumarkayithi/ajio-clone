@@ -1,0 +1,145 @@
+* {
+box-sizing: border-box;
+margin : 0 ;
+padding :0;
+}
+
+body {
+
+	font-family: "Lora", Times, serif;
+	background: white;
+	color: black;
+	font-size: 20px;
+	line-height:1.5; 
+}
+a{
+   color: #262626;
+   text-decoration: none;
+
+}
+ul {
+	list-style: none;
+}
+  
+	
+	.heading {
+	display: flex;	
+	align-items: center;
+	height: 60px;
+	padding: 20px 0;
+	font-size: 18px;
+	justify-content: space-between;
+
+	}
+     
+	.heading img {
+		width: 20px;
+		height: 30px;
+	}
+
+	.heading ul{
+	    
+		display: flex;
+
+		}
+	.heading ul li{
+		padding: 0 10px;
+	}
+	.heading ul li a:hover {
+		border-bottom: 2px solid black;
+	}
+
+
+	
+	.shop {
+	   width: 100%;
+		background-image: url(../images/ajio.png)  ;
+		height: 300px; 
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: flex-start;
+		
+	}
+	.shop ul{
+		display: flex;
+		margin-left: 400px;
+		margin-top: 250px;
+
+	}
+	.shop  ul li a{
+		background: #1c2e4a;
+		color:white;
+		margin-right: 30px;
+		font-size: 20px;
+	}
+	.shop ul li a:hover{
+		border-bottom: 2px solid red;
+		opacity: 0.7;
+	}
+
+    .homecards {
+    	display: grid;
+    	grid-template-columns: 1fr 1fr 1fr  ;
+    	grid-gap: 20px;
+    	padding-left: 100px;
+
+    }
+    .homecards img{
+    	width:100px;
+    	height: 100px;
+    	border-left: 10px;
+    }
+    .homecards h3{
+    	align-items: center;
+    }
+    .above  {
+    	display: grid;
+    	grid-template-columns: repeat(5,25%);
+    	grid-gap: 20px;
+
+    }
+    .inner ul li{
+    	display: flex;
+    }
+    .footer {
+
+    	background-color:#1c2e4a;
+    	color: white;
+
+    }
+
+    .above ul li a {
+    	color: white;
+    	font-size: 12px;
+    }
+    .footer {
+    	border-left: 20px;
+    }
+   
+    .above h6{
+    	padding-bottom: 5px;
+    
+    }
+    .above ul li {
+    padding-left: 10px;
+    }
+    .below  {
+    	display: grid;
+    	grid-template-columns: repeat(5,1fr);
+    }
+    .below ul{
+    	display: flex;
+
+
+    }
+    .below ul li {
+    	padding-left: 10px;
+    }
+    .below ul li img{
+    	width: 20px;
+    	height: 20px;
+    }
+    .footer p{
+    	padding-bottom: 3px;
+    }
